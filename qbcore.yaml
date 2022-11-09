@@ -143,11 +143,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-vehicleshop
 
   - action: download_github
-    dest: ./resources/[qb]/qb-houserobbery
-    ref: main
-    src: https://github.com/qbcore-framework/qb-houserobbery
-
-  - action: download_github
     dest: ./resources/[qb]/qb-prison
     ref: main
     src: https://github.com/qbcore-framework/qb-prison
@@ -466,6 +461,11 @@ tasks:
     dest: ./resources/[qb]/qb-doorlock
     ref: main
     src: https://github.com/ke5hxf/qb-doorlock
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-houserobbery
+    ref: main
+    src: https://github.com/ke5hxf/qb-houserobbery
 
   # Clean up
   - action: remove_path
