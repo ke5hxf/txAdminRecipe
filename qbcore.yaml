@@ -174,11 +174,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-keyminigame
 
   - action: download_github
-    dest: ./resources/[qb]/qb-fitbit
-    ref: main
-    src: https://github.com/qbcore-framework/qb-fitbit
-
-  - action: download_github
     dest: ./resources/[qb]/qb-commandbinding
     ref: main
     src: https://github.com/qbcore-framework/qb-commandbinding
@@ -477,6 +472,10 @@ tasks:
     ref: main
     src: https://github.com/ke5hxf/qb-recyclejob
 
+  - action: download_github
+    dest: ./resources/[qb]/qb-fitbit
+    ref: main
+    src: https://github.com/ke5hxf/qb-fitbit
 
 
 
