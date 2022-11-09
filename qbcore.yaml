@@ -134,11 +134,6 @@ tasks:
     ref: main
     src: https://github.com/qbcore-framework/qb-multicharacter
 
-  - action: download_github
-    dest: ./resources/[qb]/qb-target
-    ref: main
-    src: https://github.com/qbcore-framework/qb-target
-
   - action: waste_time # prevent github throttling
     seconds: 10
 
@@ -460,6 +455,11 @@ tasks:
     dest: ./resources/[qb]/qb-management
     ref: main
     src: https://github.com/ke5hxf/qb-management
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-target
+    ref: main
+    src: https://github.com/ke5hxf/qb-target
 
   # Clean up
   - action: remove_path
