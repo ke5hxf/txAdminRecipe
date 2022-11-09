@@ -463,6 +463,11 @@ tasks:
     src: https://github.com/ke5hxf/qb-apartments
 
   - action: download_github
+    dest: ./resources/[qb]/npwd
+    ref: main
+    src: https://github.com/ke5hxf/npwd
+
+  - action: download_github
     dest: ./resources/[qb]/qb-shops
     ref: main
     src: https://github.com/ke5hxf/qb-shops
