@@ -198,11 +198,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-lapraces
 
   - action: download_github
-    dest: ./resources/[qb]/qb-inventory
-    ref: main
-    src: https://github.com/qbcore-framework/qb-inventory
-
-  - action: download_github
     dest: ./resources/[qb]/qb-houses
     ref: main
     src: https://github.com/qbcore-framework/qb-houses
@@ -460,6 +455,11 @@ tasks:
     dest: ./resources/[qb]/qb-garages
     ref: main
     src: https://github.com/ke5hxf/qb-garages
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-inventory
+    ref: main
+    src: https://github.com/ke5hxf/qb-inventory
 
   # Clean up
   - action: remove_path
