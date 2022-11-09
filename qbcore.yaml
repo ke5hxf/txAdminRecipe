@@ -472,6 +472,10 @@ tasks:
     ref: main
     src: https://github.com/ke5hxf/qb-weed
 
+  - action: download_github
+    dest: ./resources/[qb]/qb-docs
+    ref: main
+    src: https://github.com/ke5hxf/qb-docs
 
 
 
