@@ -146,11 +146,6 @@ tasks:
     seconds: 10
 
   - action: download_github
-    dest: ./resources/[qb]/qb-crypto
-    ref: main
-    src: https://github.com/qbcore-framework/qb-crypto
-
-  - action: download_github
     dest: ./resources/[qb]/qb-streetraces
     ref: main
     src: https://github.com/qbcore-framework/qb-streetraces
@@ -476,6 +471,16 @@ tasks:
     dest: ./resources/[qb]/qb-prison
     ref: main
     src: https://github.com/ke5hxf/qb-prison
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-crypto
+    ref: main
+    src: https://github.com/ke5hxf/qb-crypto
+
+
+
+
+
 
 
   # Clean up
