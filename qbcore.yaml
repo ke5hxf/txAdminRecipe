@@ -102,11 +102,6 @@ tasks:
     ref: main
     src: https://github.com/AvarianKnight/pma-voice
 
-  - action: download_github
-    dest: ./resources/[voice]/qb-radio
-    ref: main
-    src: https://github.com/qbcore-framework/qb-radio
-
     # MAPS
   - action: download_github
     dest: ./resources/[defaultmaps]/hospital_map
@@ -478,6 +473,10 @@ tasks:
     ref: main
     src: https://github.com/ke5hxf/qb-scoreboard
 
+  - action: download_github
+    dest: ./resources/[voice]/qb-radio
+    ref: main
+    src: https://github.com/ke5hxf/qb-radio
 
 
 
