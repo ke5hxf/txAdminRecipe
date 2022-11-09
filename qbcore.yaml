@@ -133,11 +133,6 @@ tasks:
     seconds: 10
 
   - action: download_github
-    dest: ./resources/[qb]/qb-prison
-    ref: main
-    src: https://github.com/qbcore-framework/qb-prison
-
-  - action: download_github
     dest: ./resources/[qb]/qb-atms
     ref: main
     src: https://github.com/qbcore-framework/qb-atms
@@ -477,6 +472,10 @@ tasks:
     ref: main
     src: https://github.com/ke5hxf/qb-fitbit
 
+  - action: download_github
+    dest: ./resources/[qb]/qb-prison
+    ref: main
+    src: https://github.com/ke5hxf/qb-prison
 
 
   # Clean up
