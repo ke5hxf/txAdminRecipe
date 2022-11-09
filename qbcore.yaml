@@ -226,11 +226,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-taxijob
 
   - action: download_github
-    dest: ./resources/[qb]/qb-newsjob
-    ref: main
-    src: https://github.com/qbcore-framework/qb-newsjob
-
-  - action: download_github
     dest: ./resources/[qb]/qb-jewelery
     ref: main
     src: https://github.com/qbcore-framework/qb-jewelery
@@ -472,6 +467,10 @@ tasks:
     ref: main
     src: https://github.com/ke5hxf/qb-skillbar
 
+  - action: download_github
+    dest: ./resources/[qb]/qb-newsjob
+    ref: main
+    src: https://github.com/ke5hxf/qb-newsjob
 
 
 
