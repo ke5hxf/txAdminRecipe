@@ -206,11 +206,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-mechanicjob
 
   - action: download_github
-    dest: ./resources/[qb]/qb-phone
-    ref: main
-    src: https://github.com/qbcore-framework/qb-phone
-
-  - action: download_github
     dest: ./resources/[qb]/qb-vineyard
     ref: main
     src: https://github.com/qbcore-framework/qb-vineyard
@@ -466,6 +461,11 @@ tasks:
     dest: ./resources/[qb]/qb-bankrobbery
     ref: main
     src: https://github.com/ke5hxf/qb-bankrobbery
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-phone
+    ref: main
+    src: https://github.com/ke5hxf/qb-phone
 
   # Clean up
   - action: remove_path
