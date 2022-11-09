@@ -220,11 +220,6 @@ tasks:
     ref: main
     src: https://github.com/qbcore-framework/qb-taxijob
 
-  - action: download_github
-    dest: ./resources/[qb]/qb-jewelery
-    ref: main
-    src: https://github.com/qbcore-framework/qb-jewelery
-
   - action: waste_time # prevent github throttling
     seconds: 10
 
@@ -268,7 +263,7 @@ tasks:
     ref: main
     src: https://github.com/qbcore-framework/qb-loading
 
-  - action: waste_time # prevent github throttling
+  - action: waste_time # prevent github throttling #############
     seconds: 10
     
   - action: download_github
@@ -476,6 +471,16 @@ tasks:
     dest: ./resources/[qb]/qb-drugs
     ref: main
     src: https://github.com/ke5hxf/qb-drugs
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-jewelery
+    ref: main
+    src: https://github.com/ke5hxf/qb-jewelery
+
+
+
+
+
 
 
   # Clean up
