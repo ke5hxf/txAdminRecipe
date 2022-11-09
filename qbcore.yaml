@@ -123,15 +123,6 @@ tasks:
   - action: waste_time # prevent github throttling
     seconds: 10
 
-  - action: waste_time # prevent github throttling
-    seconds: 10
-
-  - action: waste_time # prevent github throttling
-    seconds: 10
-
-  - action: waste_time # prevent github throttling #############
-    seconds: 10
-    
   - action: download_github
     dest: ./resources/[qb]/qb-core
     ref: main
@@ -177,13 +168,13 @@ tasks:
     ref: main
     src: https://github.com/ke5hxf/qb-weapons
 
-  - action: waste_time # prevent github throttling
-    seconds: 10
-
   - action: download_github
     dest: ./resources/[qb]/qb-houses
     ref: main
     src: https://github.com/ke5hxf/qb-houses
+
+  - action: waste_time # prevent github throttling
+    seconds: 10
 
   - action: download_github
     dest: ./resources/[qb]/qb-traphouse
@@ -225,9 +216,6 @@ tasks:
     ref: main
     src: https://github.com/ke5hxf/qb-diving
 
-  - action: waste_time # prevent github throttling
-    seconds: 10
-
   - action: download_github
     dest: ./resources/[qb]/qb-input
     ref: main
@@ -237,6 +225,9 @@ tasks:
     dest: ./resources/[qb]/qb-smallresources
     ref: main
     src: https://github.com/ke5hxf/qb-smallresources
+
+  - action: waste_time # prevent github throttling
+    seconds: 10
 
   - action: download_github
     dest: ./resources/[qb]/qb-busjob
@@ -288,6 +279,9 @@ tasks:
     ref: main
     src: https://github.com/ke5hxf/qb-shops
 
+  - action: waste_time # prevent github throttling
+    seconds: 10
+
   - action: download_github
     dest: ./resources/[qb]/qb-spawn
     ref: main
@@ -337,6 +331,9 @@ tasks:
     dest: ./resources/[qb]/qb-drugs
     ref: main
     src: https://github.com/ke5hxf/qb-drugs
+
+  - action: waste_time # prevent github throttling
+    seconds: 10
 
   - action: download_github
     dest: ./resources/[qb]/qb-jewelery
@@ -388,6 +385,9 @@ tasks:
     ref: main
     src: https://github.com/ke5hxf/qb-scrapyard
 
+  - action: waste_time # prevent github throttling
+    seconds: 10
+
   - action: download_github
     dest: ./resources/[qb]/qb-truckrobbery
     ref: main
@@ -438,6 +438,9 @@ tasks:
     ref: main
     src: https://github.com/ke5hxf/qb-hotdogjob
 
+  - action: waste_time # prevent github throttling
+    seconds: 10
+
   - action: download_github
     dest: ./resources/[qb]/qb-lockpick
     ref: main
@@ -477,9 +480,6 @@ tasks:
     dest: ./resources/[qb]/qb-keyminigame
     ref: main
     src: https://github.com/ke5hxf/qb-keyminigame
-
-
-
 
   # Clean up
   - action: remove_path
