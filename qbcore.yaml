@@ -166,11 +166,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-recyclejob
 
   - action: download_github
-    dest: ./resources/[qb]/qb-truckrobbery
-    ref: main
-    src: https://github.com/qbcore-framework/qb-truckrobbery
-
-  - action: download_github
     dest: ./resources/[qb]/qb-pawnshop
     ref: main
     src: https://github.com/qbcore-framework/qb-pawnshop
@@ -477,6 +472,10 @@ tasks:
     ref: main
     src: https://github.com/ke5hxf/qb-scrapyard
 
+  - action: download_github
+    dest: ./resources/[qb]/qb-truckrobbery
+    ref: main
+    src: https://github.com/ke5hxf/qb-truckrobbery
 
 
 
