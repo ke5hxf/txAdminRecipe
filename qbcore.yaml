@@ -161,11 +161,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-crypto
 
   - action: download_github
-    dest: ./resources/[qb]/qb-weathersync
-    ref: main
-    src: https://github.com/qbcore-framework/qb-weathersync
-
-  - action: download_github
     dest: ./resources/[qb]/qb-vineyard
     ref: main
     src: https://github.com/qbcore-framework/qb-vineyard
@@ -477,6 +472,10 @@ tasks:
     ref: main
     src: https://github.com/ke5hxf/qb-towjob
 
+  - action: download_github
+    dest: ./resources/[qb]/qb-weathersync
+    ref: main
+    src: https://github.com/ke5hxf/qb-weathersync
 
 
   # Clean up
