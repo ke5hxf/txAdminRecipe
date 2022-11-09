@@ -246,11 +246,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-skillbar
 
   - action: download_github
-    dest: ./resources/[qb]/qb-smallresources
-    ref: main
-    src: https://github.com/qbcore-framework/qb-smallresources
-
-  - action: download_github
     dest: ./resources/[qb]/qb-recyclejob
     ref: main
     src: https://github.com/qbcore-framework/qb-recyclejob
@@ -466,6 +461,11 @@ tasks:
     dest: ./resources/[qb]/qb-input
     ref: main
     src: https://github.com/ke5hxf/qb-input
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-smallresources
+    ref: main
+    src: https://github.com/ke5hxf/qb-smallresources
 
   # Clean up
   - action: remove_path
