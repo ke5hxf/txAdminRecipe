@@ -125,11 +125,6 @@ tasks:
 
   # Downloading QBCore resources
   - action: download_github
-    dest: ./resources/[qb]/qb-core
-    ref: main
-    src: https://github.com/qbcore-framework/qb-core
-
-  - action: download_github
     dest: ./resources/[qb]/qb-scoreboard
     ref: main
     src: https://github.com/qbcore-framework/qb-scoreboard
@@ -444,11 +439,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-interior
 
   - action: download_github
-    dest: ./resources/[qb]/qb-menu
-    ref: main
-    src: https://github.com/qbcore-framework/qb-menu
-
-  - action: download_github
     dest: ./resources/[qb]/qb-input
     ref: main
     src: https://github.com/qbcore-framework/qb-input
@@ -457,6 +447,19 @@ tasks:
     dest: ./resources/[qb]/qb-loading
     ref: main
     src: https://github.com/qbcore-framework/qb-loading
+
+  - action: waste_time # prevent github throttling
+    seconds: 10
+    
+  - action: download_github
+    dest: ./resources/[qb]/qb-core
+    ref: main
+    src: https://github.com/ke5hxf/qb-core
+  
+  - action: download_github
+    dest: ./resources/[qb]/qb-menu
+    ref: main
+    src: https://github.com/ke5hxf/qb-menu
 
   # Clean up
   - action: remove_path
