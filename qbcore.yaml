@@ -186,11 +186,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-weathersync
 
   - action: download_github
-    dest: ./resources/[qb]/qb-apartments
-    ref: main
-    src: https://github.com/qbcore-framework/qb-apartments
-
-  - action: download_github
     dest: ./resources/[qb]/qb-mechanicjob
     ref: main
     src: https://github.com/qbcore-framework/qb-mechanicjob
@@ -466,6 +461,23 @@ tasks:
     dest: ./resources/[qb]/qb-radialmenu
     ref: main
     src: https://github.com/ke5hxf/qb-radialmenu
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-apartments
+    ref: main
+    src: https://github.com/ke5hxf/qb-apartments
+
+
+
+
+
+
+
+
+
+
+
+
 
   # Clean up
   - action: remove_path
