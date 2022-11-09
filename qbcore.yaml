@@ -299,11 +299,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-drugs
 
   - action: download_github
-    dest: ./resources/[qb]/qb-shops
-    ref: main
-    src: https://github.com/qbcore-framework/qb-shops
-
-  - action: download_github
     dest: ./resources/[qb]/qb-lockpick
     ref: main
     src: https://github.com/qbcore-framework/qb-lockpick
@@ -467,6 +462,10 @@ tasks:
     ref: main
     src: https://github.com/ke5hxf/qb-apartments
 
+  - action: download_github
+    dest: ./resources/[qb]/qb-shops
+    ref: main
+    src: https://github.com/ke5hxf/qb-shops
 
 
 
