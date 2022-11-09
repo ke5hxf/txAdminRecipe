@@ -176,11 +176,6 @@ tasks:
     seconds: 10
 
   - action: download_github
-    dest: ./resources/[qb]/qb-radialmenu
-    ref: main
-    src: https://github.com/qbcore-framework/qb-radialmenu
-
-  - action: download_github
     dest: ./resources/[qb]/qb-crypto
     ref: main
     src: https://github.com/qbcore-framework/qb-crypto
@@ -466,6 +461,11 @@ tasks:
     dest: ./resources/[qb]/qb-tunerchip
     ref: main
     src: https://github.com/ke5hxf/qb-tunerchip
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-radialmenu
+    ref: main
+    src: https://github.com/ke5hxf/qb-radialmenu
 
   # Clean up
   - action: remove_path
