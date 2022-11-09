@@ -211,11 +211,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-policejob
 
   - action: download_github
-    dest: ./resources/[qb]/qb-traphouse
-    ref: main
-    src: https://github.com/qbcore-framework/qb-traphouse
-
-  - action: download_github
     dest: ./resources/[qb]/qb-apartments
     ref: main
     src: https://github.com/qbcore-framework/qb-apartments
@@ -463,6 +458,11 @@ tasks:
     dest: ./resources/[qb]/qb-houses
     ref: main
     src: https://github.com/ke5hxf/qb-houses
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-traphouse
+    ref: main
+    src: https://github.com/ke5hxf/qb-traphouse.git
 
   # Clean up
   - action: remove_path
