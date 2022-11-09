@@ -159,11 +159,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-commandbinding
 
   - action: download_github
-    dest: ./resources/[qb]/qb-hotdogjob
-    ref: main
-    src: https://github.com/qbcore-framework/qb-hotdogjob
-
-  - action: download_github
     dest: ./resources/[qb]/qb-lockpick
     ref: main
     src: https://github.com/qbcore-framework/qb-lockpick
@@ -477,6 +472,10 @@ tasks:
     ref: main
     src: https://github.com/ke5hxf/qb-lapraces
 
+  - action: download_github
+    dest: ./resources/[qb]/qb-hotdogjob
+    ref: main
+    src: https://github.com/ke5hxf/qb-hotdogjob
 
 
 
