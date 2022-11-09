@@ -234,11 +234,6 @@ tasks:
     seconds: 10
 
   - action: download_github
-    dest: ./resources/[qb]/qb-truckerjob
-    ref: main
-    src: https://github.com/qbcore-framework/qb-truckerjob
-
-  - action: download_github
     dest: ./resources/[qb]/qb-keyminigame
     ref: main
     src: https://github.com/qbcore-framework/qb-keyminigame
@@ -472,6 +467,10 @@ tasks:
     ref: main
     src: https://github.com/ke5hxf/qb-newsjob
 
+  - action: download_github
+    dest: ./resources/[qb]/qb-truckerjob
+    ref: main
+    src: https://github.com/ke5hxf/qb-truckerjob
 
 
 
