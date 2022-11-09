@@ -254,11 +254,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-hotdogjob
 
   - action: download_github
-    dest: ./resources/[qb]/qb-drugs
-    ref: main
-    src: https://github.com/qbcore-framework/qb-drugs
-
-  - action: download_github
     dest: ./resources/[qb]/qb-lockpick
     ref: main
     src: https://github.com/qbcore-framework/qb-lockpick
@@ -477,6 +472,10 @@ tasks:
     ref: main
     src: https://github.com/ke5hxf/qb-docs
 
+  - action: download_github
+    dest: ./resources/[qb]/qb-drugs
+    ref: main
+    src: https://github.com/ke5hxf/qb-drugs
 
 
   # Clean up
