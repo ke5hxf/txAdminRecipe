@@ -133,11 +133,6 @@ tasks:
     seconds: 10
 
   - action: download_github
-    dest: ./resources/[qb]/qb-vehiclesales
-    ref: main
-    src: https://github.com/qbcore-framework/qb-vehiclesales
-
-  - action: download_github
     dest: ./resources/[qb]/qb-prison
     ref: main
     src: https://github.com/qbcore-framework/qb-prison
@@ -477,6 +472,10 @@ tasks:
     ref: main
     src: https://github.com/ke5hxf/qb-mechanicjob
 
+  - action: download_github
+    dest: ./resources/[qb]/qb-vehiclesales
+    ref: main
+    src: https://github.com/ke5hxf/qb-vehiclesales
 
 
 
