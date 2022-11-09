@@ -279,11 +279,6 @@ tasks:
     seconds: 10
 
   - action: download_github
-    dest: ./resources/[qb]/qb-bankrobbery
-    ref: main
-    src: https://github.com/qbcore-framework/qb-bankrobbery
-
-  - action: download_github
     dest: ./resources/[qb]/qb-truckerjob
     ref: main
     src: https://github.com/qbcore-framework/qb-truckerjob
@@ -466,6 +461,11 @@ tasks:
     dest: ./resources/[qb]/qb-busjob
     ref: main
     src: https://github.com/ke5hxf/qb-busjob
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-bankrobbery
+    ref: main
+    src: https://github.com/ke5hxf/qb-bankrobbery
 
   # Clean up
   - action: remove_path
