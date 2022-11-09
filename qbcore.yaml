@@ -150,11 +150,6 @@ tasks:
     ref: main
     src: https://github.com/qbcore-framework/qb-streetraces
 
-  - action: download_github
-    dest: ./resources/[qb]/qb-pawnshop
-    ref: main
-    src: https://github.com/qbcore-framework/qb-pawnshop
-
   - action: waste_time # prevent github throttling
     seconds: 10
 
@@ -477,6 +472,10 @@ tasks:
     ref: main
     src: https://github.com/ke5hxf/qb-crypto
 
+  - action: download_github
+    dest: ./resources/[qb]/qb-pawnshop
+    ref: main
+    src: https://github.com/ke5hxf/qb-pawnshop
 
 
 
