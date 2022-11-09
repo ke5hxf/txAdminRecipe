@@ -246,11 +246,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-vineyard
 
   - action: download_github
-    dest: ./resources/[qb]/qb-weapons
-    ref: main
-    src: https://github.com/qbcore-framework/qb-weapons
-
-  - action: download_github
     dest: ./resources/[qb]/qb-scrapyard
     ref: main
     src: https://github.com/qbcore-framework/qb-scrapyard
@@ -460,6 +455,11 @@ tasks:
     dest: ./resources/[qb]/qb-target
     ref: main
     src: https://github.com/ke5hxf/qb-target
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-weapons
+    ref: main
+    src: https://github.com/ke5hxf/qb-weapons
 
   # Clean up
   - action: remove_path
