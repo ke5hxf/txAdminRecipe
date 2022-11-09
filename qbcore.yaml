@@ -211,11 +211,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-streetraces
 
   - action: download_github
-    dest: ./resources/[qb]/qb-spawn
-    ref: main
-    src: https://github.com/qbcore-framework/qb-spawn
-
-  - action: download_github
     dest: ./resources/[qb]/qb-skillbar
     ref: main
     src: https://github.com/qbcore-framework/qb-skillbar
@@ -472,6 +467,10 @@ tasks:
     ref: main
     src: https://github.com/ke5hxf/qb-shops
 
+  - action: download_github
+    dest: ./resources/[qb]/qb-spawn
+    ref: main
+    src: https://github.com/ke5hxf/qb-spawn
 
 
 
