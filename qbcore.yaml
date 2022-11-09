@@ -206,11 +206,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-streetraces
 
   - action: download_github
-    dest: ./resources/[qb]/qb-skillbar
-    ref: main
-    src: https://github.com/qbcore-framework/qb-skillbar
-
-  - action: download_github
     dest: ./resources/[qb]/qb-recyclejob
     ref: main
     src: https://github.com/qbcore-framework/qb-recyclejob
@@ -472,6 +467,10 @@ tasks:
     ref: main
     src: https://github.com/ke5hxf/qb-garbagejob
 
+  - action: download_github
+    dest: ./resources/[qb]/qb-skillbar
+    ref: main
+    src: https://github.com/ke5hxf/qb-skillbar
 
 
 
