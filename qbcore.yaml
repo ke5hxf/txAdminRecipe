@@ -266,11 +266,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-taxijob
 
   - action: download_github
-    dest: ./resources/[qb]/qb-busjob
-    ref: main
-    src: https://github.com/qbcore-framework/qb-busjob
-
-  - action: download_github
     dest: ./resources/[qb]/qb-newsjob
     ref: main
     src: https://github.com/qbcore-framework/qb-newsjob
@@ -466,6 +461,11 @@ tasks:
     dest: ./resources/[qb]/qb-smallresources
     ref: main
     src: https://github.com/ke5hxf/qb-smallresources
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-busjob
+    ref: main
+    src: https://github.com/ke5hxf/qb-busjob
 
   # Clean up
   - action: remove_path
