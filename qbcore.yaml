@@ -143,11 +143,6 @@ tasks:
     seconds: 10
 
   - action: download_github
-    dest: ./resources/[qb]/qb-customs
-    ref: main
-    src: https://github.com/ke5hxf/qb-customs
-
-  - action: download_github
     dest: ./resources/[qb]/qb-vehiclesales
     ref: main
     src: https://github.com/qbcore-framework/qb-vehiclesales
@@ -435,7 +430,12 @@ tasks:
     dest: ./resources/[qb]/qb-core
     ref: main
     src: https://github.com/ke5hxf/qb-core
-  
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-customs
+    ref: main
+    src: https://github.com/ke5hxf/qb-customs
+
   - action: download_github
     dest: ./resources/[qb]/qb-menu
     ref: main
