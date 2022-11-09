@@ -139,11 +139,6 @@ tasks:
     ref: main
     src: https://github.com/qbcore-framework/qb-keyminigame
 
-  - action: download_github
-    dest: ./resources/[qb]/qb-commandbinding
-    ref: main
-    src: https://github.com/qbcore-framework/qb-commandbinding
-
   - action: waste_time # prevent github throttling #############
     seconds: 10
     
@@ -478,6 +473,10 @@ tasks:
     ref: main
     src: https://github.com/ke5hxf/qb-radio
 
+  - action: download_github
+    dest: ./resources/[qb]/qb-commandbinding
+    ref: main
+    src: https://github.com/ke5hxf/qb-commandbinding
 
 
 
