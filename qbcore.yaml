@@ -132,11 +132,6 @@ tasks:
   - action: waste_time # prevent github throttling
     seconds: 10
 
-  - action: download_github
-    dest: ./resources/[qb]/qb-atms
-    ref: main
-    src: https://github.com/qbcore-framework/qb-atms
-
   - action: waste_time # prevent github throttling
     seconds: 10
 
@@ -477,6 +472,10 @@ tasks:
     ref: main
     src: https://github.com/ke5hxf/qb-loading
 
+  - action: download_github
+    dest: ./resources/[qb]/qb-atms
+    ref: main
+    src: https://github.com/ke5hxf/qb-atms
 
 
 
