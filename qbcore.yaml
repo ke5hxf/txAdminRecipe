@@ -161,11 +161,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-streetraces
 
   - action: download_github
-    dest: ./resources/[qb]/qb-recyclejob
-    ref: main
-    src: https://github.com/qbcore-framework/qb-recyclejob
-
-  - action: download_github
     dest: ./resources/[qb]/qb-pawnshop
     ref: main
     src: https://github.com/qbcore-framework/qb-pawnshop
@@ -477,6 +472,10 @@ tasks:
     ref: main
     src: https://github.com/ke5hxf/qb-interior
 
+  - action: download_github
+    dest: ./resources/[qb]/qb-recyclejob
+    ref: main
+    src: https://github.com/ke5hxf/qb-recyclejob
 
 
 
