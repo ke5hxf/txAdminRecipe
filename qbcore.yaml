@@ -156,11 +156,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-crypto
 
   - action: download_github
-    dest: ./resources/[qb]/qb-scrapyard
-    ref: main
-    src: https://github.com/qbcore-framework/qb-scrapyard
-
-  - action: download_github
     dest: ./resources/[qb]/qb-streetraces
     ref: main
     src: https://github.com/qbcore-framework/qb-streetraces
@@ -477,6 +472,10 @@ tasks:
     ref: main
     src: https://github.com/ke5hxf/qb-taxijob
 
+  - action: download_github
+    dest: ./resources/[qb]/qb-scrapyard
+    ref: main
+    src: https://github.com/ke5hxf/qb-scrapyard
 
 
 
