@@ -216,11 +216,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-apartments
 
   - action: download_github
-    dest: ./resources/[qb]/qb-vehiclekeys
-    ref: main
-    src: https://github.com/qbcore-framework/qb-vehiclekeys
-
-  - action: download_github
     dest: ./resources/[qb]/qb-mechanicjob
     ref: main
     src: https://github.com/qbcore-framework/qb-mechanicjob
@@ -463,6 +458,11 @@ tasks:
     dest: ./resources/[qb]/qb-cityhall
     ref: main
     src: https://github.com/ke5hxf/qb-cityhall
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-vehiclekeys
+    ref: main
+    src: https://github.com/ke5hxf/qb-vehiclekeys
 
   # Clean up
   - action: remove_path
