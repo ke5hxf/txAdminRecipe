@@ -150,7 +150,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-customs
     ref: main
-    src: https://github.com/qbcore-framework/qb-customs
+    src: https://github.com/ke5hxf/qb-customs
 
   - action: download_github
     dest: ./resources/[qb]/qb-vehiclesales
