@@ -161,11 +161,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-crypto
 
   - action: download_github
-    dest: ./resources/[qb]/qb-vineyard
-    ref: main
-    src: https://github.com/qbcore-framework/qb-vineyard
-
-  - action: download_github
     dest: ./resources/[qb]/qb-scrapyard
     ref: main
     src: https://github.com/qbcore-framework/qb-scrapyard
@@ -477,6 +472,10 @@ tasks:
     ref: main
     src: https://github.com/ke5hxf/qb-weathersync
 
+  - action: download_github
+    dest: ./resources/[qb]/qb-vineyard
+    ref: main
+    src: https://github.com/ke5hxf/qb-vineyard
 
   # Clean up
   - action: remove_path
