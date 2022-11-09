@@ -274,11 +274,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-hotdogjob
 
   - action: download_github
-    dest: ./resources/[qb]/qb-garbagejob
-    ref: main
-    src: https://github.com/qbcore-framework/qb-garbagejob
-
-  - action: download_github
     dest: ./resources/[qb]/qb-drugs
     ref: main
     src: https://github.com/qbcore-framework/qb-drugs
@@ -472,6 +467,10 @@ tasks:
     ref: main
     src: https://github.com/ke5hxf/qb-vehicleshop
 
+  - action: download_github
+    dest: ./resources/[qb]/qb-garbagejob
+    ref: main
+    src: https://github.com/ke5hxf/qb-garbagejob
 
 
 
