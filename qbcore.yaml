@@ -180,11 +180,6 @@ tasks:
     ref: main
     src: https://github.com/qbcore-framework/qb-pawnshop
 
-  - action: download_github
-    dest: ./resources/[qb]/qb-taxijob
-    ref: main
-    src: https://github.com/qbcore-framework/qb-taxijob
-
   - action: waste_time # prevent github throttling
     seconds: 10
 
@@ -477,6 +472,10 @@ tasks:
     ref: main
     src: https://github.com/ke5hxf/qb-vehiclefailure
 
+  - action: download_github
+    dest: ./resources/[qb]/qb-taxijob
+    ref: main
+    src: https://github.com/ke5hxf/qb-taxijob
 
 
 
