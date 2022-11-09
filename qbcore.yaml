@@ -309,11 +309,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-hotdogjob
 
   - action: download_github
-    dest: ./resources/[qb]/qb-doorlock
-    ref: main
-    src: https://github.com/qbcore-framework/qb-doorlock
-
-  - action: download_github
     dest: ./resources/[qb]/qb-garbagejob
     ref: main
     src: https://github.com/qbcore-framework/qb-garbagejob
@@ -466,6 +461,11 @@ tasks:
     dest: ./resources/[qb]/qb-phone
     ref: main
     src: https://github.com/ke5hxf/qb-phone
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-doorlock
+    ref: main
+    src: https://github.com/ke5hxf/qb-doorlock
 
   # Clean up
   - action: remove_path
