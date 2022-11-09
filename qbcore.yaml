@@ -178,11 +178,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-hud
 
   - action: download_github
-    dest: ./resources/[qb]/qb-management
-    ref: main
-    src: https://github.com/qbcore-framework/qb-management
-
-  - action: download_github
     dest: ./resources/[qb]/qb-weed
     ref: main
     src: https://github.com/qbcore-framework/qb-weed
@@ -460,6 +455,11 @@ tasks:
     dest: ./resources/[qb]/qb-adminmenu
     ref: main
     src: https://github.com/ke5hxf/qb-adminmenu
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-management
+    ref: main
+    src: https://github.com/ke5hxf/qb-management
 
   # Clean up
   - action: remove_path
