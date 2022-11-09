@@ -208,11 +208,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-houses
 
   - action: download_github
-    dest: ./resources/[qb]/qb-garages
-    ref: main
-    src: https://github.com/qbcore-framework/qb-garages
-
-  - action: download_github
     dest: ./resources/[qb]/qb-ambulancejob
     ref: main
     src: https://github.com/qbcore-framework/qb-ambulancejob
@@ -460,6 +455,11 @@ tasks:
     dest: ./resources/[qb]/qb-menu
     ref: main
     src: https://github.com/ke5hxf/qb-menu
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-garages
+    ref: main
+    src: https://github.com/ke5hxf/qb-garages
 
   # Clean up
   - action: remove_path
