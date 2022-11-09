@@ -204,11 +204,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-lockpick
 
   - action: download_github
-    dest: ./resources/[qb]/qb-interior
-    ref: main
-    src: https://github.com/qbcore-framework/qb-interior
-
-  - action: download_github
     dest: ./resources/[qb]/qb-loading
     ref: main
     src: https://github.com/qbcore-framework/qb-loading
@@ -477,6 +472,10 @@ tasks:
     ref: main
     src: https://github.com/ke5hxf/qb-truckrobbery
 
+  - action: download_github
+    dest: ./resources/[qb]/qb-interior
+    ref: main
+    src: https://github.com/ke5hxf/qb-interior
 
 
 
