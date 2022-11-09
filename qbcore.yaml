@@ -158,11 +158,6 @@ tasks:
     ref: main
     src: https://github.com/qbcore-framework/qb-commandbinding
 
-  - action: download_github
-    dest: ./resources/[qb]/qb-loading
-    ref: main
-    src: https://github.com/qbcore-framework/qb-loading
-
   - action: waste_time # prevent github throttling #############
     seconds: 10
     
@@ -477,6 +472,10 @@ tasks:
     ref: main
     src: https://github.com/ke5hxf/qb-lockpick
 
+  - action: download_github
+    dest: ./resources/[qb]/qb-loading
+    ref: main
+    src: https://github.com/ke5hxf/qb-loading
 
 
 
