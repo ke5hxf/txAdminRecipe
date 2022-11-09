@@ -137,11 +137,6 @@ tasks:
     ref: main
     src: https://github.com/qbcore-framework/qb-atms
 
-  - action: download_github
-    dest: ./resources/[qb]/qb-lapraces
-    ref: main
-    src: https://github.com/qbcore-framework/qb-lapraces
-
   - action: waste_time # prevent github throttling
     seconds: 10
 
@@ -477,6 +472,10 @@ tasks:
     ref: main
     src: https://github.com/ke5hxf/qb-banking
 
+  - action: download_github
+    dest: ./resources/[qb]/qb-lapraces
+    ref: main
+    src: https://github.com/ke5hxf/qb-lapraces
 
 
 
