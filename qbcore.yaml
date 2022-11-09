@@ -256,11 +256,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-recyclejob
 
   - action: download_github
-    dest: ./resources/[qb]/qb-diving
-    ref: main
-    src: https://github.com/qbcore-framework/qb-diving
-
-  - action: download_github
     dest: ./resources/[qb]/qb-truckrobbery
     ref: main
     src: https://github.com/qbcore-framework/qb-truckrobbery
@@ -463,6 +458,14 @@ tasks:
     dest: ./resources/[qb]/qb-ambulancejob
     ref: main
     src: https://github.com/ke5hxf/qb-ambulancejob
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-diving
+    ref: main
+    src: https://github.com/ke5hxf/qb-diving
+
+  - action: waste_time # prevent github throttling
+    seconds: 10
 
   # Clean up
   - action: remove_path
