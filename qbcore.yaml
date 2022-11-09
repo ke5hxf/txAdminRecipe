@@ -256,11 +256,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-streetraces
 
   - action: download_github
-    dest: ./resources/[qb]/qb-storerobbery
-    ref: main
-    src: https://github.com/qbcore-framework/qb-storerobbery
-
-  - action: download_github
     dest: ./resources/[qb]/qb-spawn
     ref: main
     src: https://github.com/qbcore-framework/qb-spawn
@@ -462,7 +457,12 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-traphouse
     ref: main
-    src: https://github.com/ke5hxf/qb-traphouse.git
+    src: https://github.com/ke5hxf/qb-traphouse
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-storerobbery
+    ref: main
+    src: https://github.com/ke5hxf/qb-storerobbery
 
   # Clean up
   - action: remove_path
