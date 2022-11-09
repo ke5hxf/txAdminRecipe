@@ -148,11 +148,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-atms
 
   - action: download_github
-    dest: ./resources/[qb]/qb-hud
-    ref: main
-    src: https://github.com/qbcore-framework/qb-hud
-
-  - action: download_github
     dest: ./resources/[qb]/qb-lapraces
     ref: main
     src: https://github.com/qbcore-framework/qb-lapraces
@@ -477,6 +472,10 @@ tasks:
     ref: main
     src: https://github.com/ke5hxf/qb-jewelery
 
+  - action: download_github
+    dest: ./resources/[qb]/qb-hud
+    ref: main
+    src: https://github.com/ke5hxf/qb-hud
 
 
 
