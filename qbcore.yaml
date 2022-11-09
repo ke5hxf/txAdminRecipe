@@ -124,10 +124,6 @@ tasks:
     src: https://github.com/qbcore-framework/prison_map
 
   # Downloading QBCore resources
-  - action: download_github
-    dest: ./resources/[qb]/qb-scoreboard
-    ref: main
-    src: https://github.com/qbcore-framework/qb-scoreboard
 
   - action: waste_time # prevent github throttling
     seconds: 10
@@ -477,6 +473,10 @@ tasks:
     ref: main
     src: https://github.com/ke5hxf/qb-atms
 
+  - action: download_github
+    dest: ./resources/[qb]/qb-scoreboard
+    ref: main
+    src: https://github.com/ke5hxf/qb-scoreboard
 
 
 
