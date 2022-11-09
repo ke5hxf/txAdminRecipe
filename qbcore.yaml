@@ -147,11 +147,6 @@ tasks:
     ref: main
     src: https://github.com/qbcore-framework/qb-lapraces
 
-  - action: download_github
-    dest: ./resources/[qb]/qb-vehiclefailure
-    ref: main
-    src: https://github.com/qbcore-framework/qb-vehiclefailure
-
   - action: waste_time # prevent github throttling
     seconds: 10
 
@@ -476,6 +471,19 @@ tasks:
     dest: ./resources/[qb]/qb-vineyard
     ref: main
     src: https://github.com/ke5hxf/qb-vineyard
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-vehiclefailure
+    ref: main
+    src: https://github.com/ke5hxf/qb-vehiclefailure
+
+
+
+
+
+
+
+
 
   # Clean up
   - action: remove_path
