@@ -281,11 +281,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-diving
 
   - action: download_github
-    dest: ./resources/[qb]/qb-cityhall
-    ref: main
-    src: https://github.com/qbcore-framework/qb-cityhall
-
-  - action: download_github
     dest: ./resources/[qb]/qb-truckrobbery
     ref: main
     src: https://github.com/qbcore-framework/qb-truckrobbery
@@ -463,6 +458,11 @@ tasks:
     dest: ./resources/[qb]/qb-storerobbery
     ref: main
     src: https://github.com/ke5hxf/qb-storerobbery
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-cityhall
+    ref: main
+    src: https://github.com/ke5hxf/qb-cityhall
 
   # Clean up
   - action: remove_path
