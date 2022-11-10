@@ -13,7 +13,7 @@ tasks:
     dest: ./tmp/qbcore
 
   - action: move_path
-    src: ./tmp/qbcore/server.cfg
+    src: C:\PRPbackup
     dest: ./server.cfg
 
   - action: move_path
