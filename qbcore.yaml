@@ -94,7 +94,7 @@ tasks:
   - action: download_github
     dest: ./resources/[standalone]/LegacyFuel
     ref: master
-    src: https://github.com/qbcore-framework/LegacyFuel
+    src: https://github.com/ke5hxf/LegacyFuel
 
     # VOICE
   - action: download_github
