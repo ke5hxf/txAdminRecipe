@@ -401,11 +401,6 @@ tasks:
     src: https://github.com/ke5hxf/qb-prison
 
   - action: download_github
-    dest: ./resources/[qb]/qb-crypto
-    ref: main
-    src: https://github.com/ke5hxf/qb-crypto
-
-  - action: download_github
     dest: ./resources/[qb]/qb-pawnshop
     ref: main
     src: https://github.com/ke5hxf/qb-pawnshop
